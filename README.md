@@ -9,12 +9,14 @@ This script uses Puppeteer to automate the login process on GeeksforGeeks and ta
 - [npm](https://www.npmjs.com/get-npm) or [yarn](https://yarnpkg.com/) for package management
 
 
+
 ## Installation
 
 1. **Clone the repository:**
 
-    ```sh
-    https://github.com/Musa1112/recipe_work
+    ```s
+    https://github.com/Musa1112/Geek_screenshort-scraper
+
     ```
 
 
@@ -45,6 +47,8 @@ node geek_screenshot.js
 
 
 ## here is the geek_screenshort.js file script
+
+```js
 
 import puppeteer from "puppeteer";
 import dotenv from "dotenv";
@@ -85,3 +89,4 @@ dotenv.config();
     await browser.close();
 })();
 
+```
